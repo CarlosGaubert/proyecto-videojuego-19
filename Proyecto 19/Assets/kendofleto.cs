@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script : MonoBehaviour
+public class kendofleto : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        console.log("hola kendo fleto");
+        
     }
 
     // Update is called once per frame
