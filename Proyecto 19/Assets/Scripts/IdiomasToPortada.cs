@@ -8,9 +8,9 @@ public class IdiomasToPortada : MonoBehaviour{
 
 	public Animator anim;
 
-	public void cambiar(){
+	public void cambiaraportada(){
 		anim = GetComponent<Animator>();
-		anim.SetBool("cambiar",true);
+		anim.SetBool("cambiaraportada",true);
 	} 
 
   

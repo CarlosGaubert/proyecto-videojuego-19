@@ -1937,7 +1937,7 @@ GameObject:
   - component: {fileID: 1977253879}
   - component: {fileID: 1977253878}
   m_Layer: 5
-  m_Name: Seleccion de idioma
+  m_Name: TituloOpciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
