@@ -13,5 +13,7 @@ public class IdiomasToPortada : MonoBehaviour{
 		anim.SetBool("cambiaraportada",true);
 	} 
 
+	
+
   
 }
