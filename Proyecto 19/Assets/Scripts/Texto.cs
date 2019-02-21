@@ -6,11 +6,11 @@ public class Texto : MonoBehaviour {
 
 	public string español;
 	public string ingles;
-	public string frances;
+
 	public bool esBoton;
 	public Toggle toggleEspañol;
 	public Toggle toggleIngles;
-	public Toggle toggleFrances;
+
 
 	public IdiomaGlobal idiomaGlobal;
 
@@ -39,13 +39,6 @@ public class Texto : MonoBehaviour {
 				GetComponentInChildren<Text> ().text = ingles;
 			} else {
 				GetComponent<Text> ().text = ingles;
-			}
-		}
-		if (idiomaGlobal.RetornaIdioma ()=="Frances") {
-			if (esBoton) {
-				GetComponentInChildren<Text> ().text = frances;
-			} else {
-				GetComponent<Text> ().text = frances;
 			}
 		}
 

@@ -6,7 +6,7 @@ public class IdiomaGlobal : MonoBehaviour {
 	public static string IdiomaActual = "Español";
 	public Toggle toggleEspañol;
 	public Toggle toggleIngles;
-	public Toggle toggleFrances;
+
 	public bool EsEscenaMenu=true;
 
 	void Awake(){
@@ -32,9 +32,6 @@ public class IdiomaGlobal : MonoBehaviour {
 			} else if (idioma == "Ingles") {
 				//toggleIngles.GetComponentInChildren <GameObject> ().GetComponentInChildren<Image> ().gameObject.SetActive (true);
 				toggleIngles.isOn = true;
-			} else if (idioma == "Frances") {
-				//toggleFrances.GetComponentInChildren <GameObject> ().GetComponentInChildren<Image> ().gameObject.SetActive (true);
-				toggleFrances.isOn = true;
 			}
 		}
 
